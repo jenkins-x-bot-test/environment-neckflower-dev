@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: cb-kubecd
+  repo: jr-tlstest1
+  url: https://github.com/cb-kubecd/jr-tlstest1.git
+  version: ""
+  versionURL: ""
