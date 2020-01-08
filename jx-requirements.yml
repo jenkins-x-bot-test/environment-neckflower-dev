@@ -17,13 +17,13 @@ cluster:
   zone: europe-north1-b
 environments:
 - ingress:
-    domain: rawlings-demo.com
-    externalDNS: true
+    domain: 35.228.158.8.nip.io
+    externalDNS: false
     namespaceSubDomain: -jx.
     tls:
-      email: "rawlingsj80@gmail.com"
-      enabled: true
-      production: true
+      email: ""
+      enabled: false
+      production: false
   key: dev
 - ingress:
     domain: ""
@@ -45,13 +45,13 @@ environments:
   key: production
 gitops: true
 ingress:
-  domain: 35.228.158.8.nip.io
-  externalDNS: false
+  domain: rawlings-demo.com
+  externalDNS: true
   namespaceSubDomain: -jx.
   tls:
-    email: ""
-    enabled: false
-    production: false
+    email: "rawlingsj80@gmail.com"
+    enabled: true
+    production: true
 kaniko: true
 repository: nexus
 secretStorage: local
