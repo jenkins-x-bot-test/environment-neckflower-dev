@@ -13,13 +13,12 @@ cluster:
   namespace: jx
   project: jx-development
   provider: gke
-  registry: gcr.io
   zone: europe-north1-b
 environments:
 - ingress:
-    domain: 35.228.158.8.nip.io
+    domain: ""
     externalDNS: false
-    namespaceSubDomain: -jx.
+    namespaceSubDomain: ""
     tls:
       email: ""
       enabled: false
