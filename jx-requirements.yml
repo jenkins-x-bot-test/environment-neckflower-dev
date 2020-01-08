@@ -17,13 +17,13 @@ cluster:
   zone: europe-north1-b
 environments:
 - ingress:
-    domain: 35.228.158.8.nip.io
-    externalDNS: false
+    domain: rawlings-demo.com
+    externalDNS: true
     namespaceSubDomain: -jx.
     tls:
-      email: ""
-      enabled: false
-      production: false
+      email: "rawlingsj80@gmail.com"
+      enabled: true
+      production: true
   key: dev
 - ingress:
     domain: ""
