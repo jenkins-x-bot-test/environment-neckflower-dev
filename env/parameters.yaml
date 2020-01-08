@@ -1,0 +1,10 @@
+adminUser:
+  password: local:neckflower/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jenkins-x-bot-test@googlegroups.com
+  token: local:neckflower/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: local:neckflower/prow:hmacToken
